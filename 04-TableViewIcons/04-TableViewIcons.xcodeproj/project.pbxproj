@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954987A6255EAE8D005EEB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987A5255EAE8D005EEB11 /* AppDelegate.swift */; };
+		954987A8255EAE8D005EEB11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987A7255EAE8D005EEB11 /* SceneDelegate.swift */; };
+		954987AA255EAE8D005EEB11 /* IconTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987A9255EAE8D005EEB11 /* IconTableViewController.swift */; };
+		954987AD255EAE8D005EEB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954987AB255EAE8D005EEB11 /* Main.storyboard */; };
+		954987AF255EAE8E005EEB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954987AE255EAE8E005EEB11 /* Assets.xcassets */; };
+		954987B2255EAE8E005EEB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954987B0255EAE8E005EEB11 /* LaunchScreen.storyboard */; };
+		954987BD255EAE8E005EEB11 /* _4_TableViewIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987BC255EAE8E005EEB11 /* _4_TableViewIconsTests.swift */; };
+		954987C8255EAE8E005EEB11 /* _4_TableViewIconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987C7255EAE8E005EEB11 /* _4_TableViewIconsUITests.swift */; };
+		954987D9255EAF60005EEB11 /* IconNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954987D8255EAF60005EEB11 /* IconNote.swift */; };
+		95699EE3255EBDEE003CF9A9 /* IconNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95699EE2255EBDEE003CF9A9 /* IconNoteCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		954987B9255EAE8E005EEB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9549879A255EAE8D005EEB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954987A1255EAE8D005EEB11;
+			remoteInfo = "04-TableViewIcons";
+		};
+		954987C4255EAE8E005EEB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9549879A255EAE8D005EEB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 954987A1255EAE8D005EEB11;
+			remoteInfo = "04-TableViewIcons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		954987A2255EAE8D005EEB11 /* 04-TableViewIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-TableViewIcons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954987A5255EAE8D005EEB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		954987A7255EAE8D005EEB11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		954987A9255EAE8D005EEB11 /* IconTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTableViewController.swift; sourceTree = "<group>"; };
+		954987AC255EAE8D005EEB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954987AE255EAE8E005EEB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954987B1255EAE8E005EEB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954987B3255EAE8E005EEB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954987B8255EAE8E005EEB11 /* 04-TableViewIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-TableViewIconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954987BC255EAE8E005EEB11 /* _4_TableViewIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_TableViewIconsTests.swift; sourceTree = "<group>"; };
+		954987BE255EAE8E005EEB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954987C3255EAE8E005EEB11 /* 04-TableViewIconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-TableViewIconsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954987C7255EAE8E005EEB11 /* _4_TableViewIconsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_TableViewIconsUITests.swift; sourceTree = "<group>"; };
+		954987C9255EAE8E005EEB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954987D8255EAF60005EEB11 /* IconNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconNote.swift; sourceTree = "<group>"; };
+		95699EE2255EBDEE003CF9A9 /* IconNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconNoteCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9549879F255EAE8D005EEB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987B5255EAE8E005EEB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987C0255EAE8E005EEB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95498799255EAE8D005EEB11 = {
+			isa = PBXGroup;
+			children = (
+				954987A4255EAE8D005EEB11 /* 04-TableViewIcons */,
+				954987BB255EAE8E005EEB11 /* 04-TableViewIconsTests */,
+				954987C6255EAE8E005EEB11 /* 04-TableViewIconsUITests */,
+				954987A3255EAE8D005EEB11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954987A3255EAE8D005EEB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954987A2255EAE8D005EEB11 /* 04-TableViewIcons.app */,
+				954987B8255EAE8E005EEB11 /* 04-TableViewIconsTests.xctest */,
+				954987C3255EAE8E005EEB11 /* 04-TableViewIconsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954987A4255EAE8D005EEB11 /* 04-TableViewIcons */ = {
+			isa = PBXGroup;
+			children = (
+				954987A5255EAE8D005EEB11 /* AppDelegate.swift */,
+				954987A7255EAE8D005EEB11 /* SceneDelegate.swift */,
+				954987A9255EAE8D005EEB11 /* IconTableViewController.swift */,
+				954987AB255EAE8D005EEB11 /* Main.storyboard */,
+				954987AE255EAE8E005EEB11 /* Assets.xcassets */,
+				954987B0255EAE8E005EEB11 /* LaunchScreen.storyboard */,
+				954987B3255EAE8E005EEB11 /* Info.plist */,
+				954987D8255EAF60005EEB11 /* IconNote.swift */,
+				95699EE2255EBDEE003CF9A9 /* IconNoteCell.swift */,
+			);
+			path = "04-TableViewIcons";
+			sourceTree = "<group>";
+		};
+		954987BB255EAE8E005EEB11 /* 04-TableViewIconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				954987BC255EAE8E005EEB11 /* _4_TableViewIconsTests.swift */,
+				954987BE255EAE8E005EEB11 /* Info.plist */,
+			);
+			path = "04-TableViewIconsTests";
+			sourceTree = "<group>";
+		};
+		954987C6255EAE8E005EEB11 /* 04-TableViewIconsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				954987C7255EAE8E005EEB11 /* _4_TableViewIconsUITests.swift */,
+				954987C9255EAE8E005EEB11 /* Info.plist */,
+			);
+			path = "04-TableViewIconsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954987A1255EAE8D005EEB11 /* 04-TableViewIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954987CC255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIcons" */;
+			buildPhases = (
+				9549879E255EAE8D005EEB11 /* Sources */,
+				9549879F255EAE8D005EEB11 /* Frameworks */,
+				954987A0255EAE8D005EEB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-TableViewIcons";
+			productName = "04-TableViewIcons";
+			productReference = 954987A2255EAE8D005EEB11 /* 04-TableViewIcons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		954987B7255EAE8E005EEB11 /* 04-TableViewIconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954987CF255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIconsTests" */;
+			buildPhases = (
+				954987B4255EAE8E005EEB11 /* Sources */,
+				954987B5255EAE8E005EEB11 /* Frameworks */,
+				954987B6255EAE8E005EEB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954987BA255EAE8E005EEB11 /* PBXTargetDependency */,
+			);
+			name = "04-TableViewIconsTests";
+			productName = "04-TableViewIconsTests";
+			productReference = 954987B8255EAE8E005EEB11 /* 04-TableViewIconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		954987C2255EAE8E005EEB11 /* 04-TableViewIconsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954987D2255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIconsUITests" */;
+			buildPhases = (
+				954987BF255EAE8E005EEB11 /* Sources */,
+				954987C0255EAE8E005EEB11 /* Frameworks */,
+				954987C1255EAE8E005EEB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				954987C5255EAE8E005EEB11 /* PBXTargetDependency */,
+			);
+			name = "04-TableViewIconsUITests";
+			productName = "04-TableViewIconsUITests";
+			productReference = 954987C3255EAE8E005EEB11 /* 04-TableViewIconsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9549879A255EAE8D005EEB11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					954987A1255EAE8D005EEB11 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					954987B7255EAE8E005EEB11 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 954987A1255EAE8D005EEB11;
+					};
+					954987C2255EAE8E005EEB11 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 954987A1255EAE8D005EEB11;
+					};
+				};
+			};
+			buildConfigurationList = 9549879D255EAE8D005EEB11 /* Build configuration list for PBXProject "04-TableViewIcons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95498799255EAE8D005EEB11;
+			productRefGroup = 954987A3255EAE8D005EEB11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954987A1255EAE8D005EEB11 /* 04-TableViewIcons */,
+				954987B7255EAE8E005EEB11 /* 04-TableViewIconsTests */,
+				954987C2255EAE8E005EEB11 /* 04-TableViewIconsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954987A0255EAE8D005EEB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954987B2255EAE8E005EEB11 /* LaunchScreen.storyboard in Resources */,
+				954987AF255EAE8E005EEB11 /* Assets.xcassets in Resources */,
+				954987AD255EAE8D005EEB11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987B6255EAE8E005EEB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987C1255EAE8E005EEB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9549879E255EAE8D005EEB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954987D9255EAF60005EEB11 /* IconNote.swift in Sources */,
+				954987AA255EAE8D005EEB11 /* IconTableViewController.swift in Sources */,
+				954987A6255EAE8D005EEB11 /* AppDelegate.swift in Sources */,
+				95699EE3255EBDEE003CF9A9 /* IconNoteCell.swift in Sources */,
+				954987A8255EAE8D005EEB11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987B4255EAE8E005EEB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954987BD255EAE8E005EEB11 /* _4_TableViewIconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		954987BF255EAE8E005EEB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954987C8255EAE8E005EEB11 /* _4_TableViewIconsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		954987BA255EAE8E005EEB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954987A1255EAE8D005EEB11 /* 04-TableViewIcons */;
+			targetProxy = 954987B9255EAE8E005EEB11 /* PBXContainerItemProxy */;
+		};
+		954987C5255EAE8E005EEB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 954987A1255EAE8D005EEB11 /* 04-TableViewIcons */;
+			targetProxy = 954987C4255EAE8E005EEB11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		954987AB255EAE8D005EEB11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954987AC255EAE8D005EEB11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954987B0255EAE8E005EEB11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954987B1255EAE8E005EEB11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954987CA255EAE8E005EEB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		954987CB255EAE8E005EEB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954987CD255EAE8E005EEB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIcons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIcons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954987CE255EAE8E005EEB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIcons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIcons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		954987D0255EAE8E005EEB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIconsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-TableViewIcons.app/04-TableViewIcons";
+			};
+			name = Debug;
+		};
+		954987D1255EAE8E005EEB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIconsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-TableViewIcons.app/04-TableViewIcons";
+			};
+			name = Release;
+		};
+		954987D3255EAE8E005EEB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-TableViewIcons";
+			};
+			name = Debug;
+		};
+		954987D4255EAE8E005EEB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "04-TableViewIconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jermerf.-4-TableViewIconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-TableViewIcons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9549879D255EAE8D005EEB11 /* Build configuration list for PBXProject "04-TableViewIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954987CA255EAE8E005EEB11 /* Debug */,
+				954987CB255EAE8E005EEB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954987CC255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954987CD255EAE8E005EEB11 /* Debug */,
+				954987CE255EAE8E005EEB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954987CF255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954987D0255EAE8E005EEB11 /* Debug */,
+				954987D1255EAE8E005EEB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954987D2255EAE8E005EEB11 /* Build configuration list for PBXNativeTarget "04-TableViewIconsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954987D3255EAE8E005EEB11 /* Debug */,
+				954987D4255EAE8E005EEB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9549879A255EAE8D005EEB11 /* Project object */;
+}
