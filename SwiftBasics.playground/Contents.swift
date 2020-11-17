@@ -1,5 +1,10 @@
 import Foundation
 
+// Constant
+let PI: Double = 3.1415926
+// Variable
+var myVar: Int = 42
+
 func foolishLabels(PrettyName name: String) -> Void{
     print(name)
 }
@@ -16,7 +21,7 @@ func foo(_ fname:String, _ lname:String )  {
 // foo("Dan","Giamatti")
 
 func dealingNils(_ name:String?){
-    if let realName = name {
+    if let realName:String = name {
         let sentence = "Hi there " + realName
         print(sentence)
     }else{
@@ -44,12 +49,12 @@ func descriptiveLabels(FirstName fn: String, LastName ln: String, _ hou: String?
     print("This person's name is \(fn) \(ln) of house \(house)")
 }
 
-//descriptiveLabels(FirstName: "Jeremony", LastName: "Pi")
+descriptiveLabels(FirstName: "Jeremony", LastName: "Pi")
 
 var num = 3.9999
 var iNum = Int(num)
 
-//print(iNum)
+//print(iNum) // 3 because .9999 was truncated
 
 var list:[Int] = []
 
@@ -70,8 +75,6 @@ func mult(Num1 n1:Int, Num2 n2:Double) -> Int{
 var myArr: [Int]  = [4,2,7,6,1,9]
 myArr.removeFirst()
 print(myArr)
-
-
 
 
 

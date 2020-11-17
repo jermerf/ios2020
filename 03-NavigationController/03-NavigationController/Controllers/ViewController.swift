@@ -18,7 +18,8 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.destination is ReceiverController {
             let dest = segue.destination as! ReceiverController
-            dest.someData=txtData.text ?? " - it's nil - "
+            dest.headsOrTailsTrueIsHeads = Bool.random()
+            dest.someData = txtData.text ?? " - it's nil - "
         }
     }
     

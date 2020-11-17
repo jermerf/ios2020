@@ -9,6 +9,7 @@ import UIKit
 
 class ReceiverController: UIViewController {
     var someData = "Hello world"
+    var headsOrTailsTrueIsHeads = false
     
     @IBOutlet weak var lblData: UILabel!
     

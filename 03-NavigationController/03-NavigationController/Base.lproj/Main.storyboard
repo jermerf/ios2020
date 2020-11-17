@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZMk-Ha-wbR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZMk-Ha-wbR">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -156,12 +156,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rom-SW-TEU">
+                                <rect key="frame" x="183.66666666666666" y="481.66666666666669" width="61" height="30"/>
+                                <state key="normal" title="Get Help"/>
+                                <connections>
+                                    <segue destination="wyI-L9-1xB" kind="show" id="6cv-b9-I17"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PkZ-Uc-P1A"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="du5-cj-Kzh" firstAttribute="centerY" secondItem="w7q-xe-8Us" secondAttribute="centerY" id="ABk-rb-Zl0"/>
                             <constraint firstItem="du5-cj-Kzh" firstAttribute="centerX" secondItem="w7q-xe-8Us" secondAttribute="centerX" id="esm-qx-Yuk"/>
+                            <constraint firstItem="rom-SW-TEU" firstAttribute="top" secondItem="du5-cj-Kzh" secondAttribute="bottom" constant="8" id="plt-FX-dYB"/>
+                            <constraint firstItem="rom-SW-TEU" firstAttribute="centerX" secondItem="w7q-xe-8Us" secondAttribute="centerX" id="qYQ-PC-ZJh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QTR-e8-6du"/>
@@ -170,8 +179,51 @@
             </objects>
             <point key="canvasLocation" x="1094" y="-166"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="950-yL-CAf">
+            <objects>
+                <viewController id="wyI-L9-1xB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DzN-sI-JrA">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CC-We-GSn">
+                                <rect key="frame" x="152.66666666666666" y="88" width="122.99999999999997" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="62"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k86-n4-56K">
+                                <rect key="frame" x="20" y="170" width="388" height="722"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wX5-JR-sF3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7CC-We-GSn" firstAttribute="centerX" secondItem="DzN-sI-JrA" secondAttribute="centerX" id="8T6-jY-4f2"/>
+                            <constraint firstItem="k86-n4-56K" firstAttribute="top" secondItem="7CC-We-GSn" secondAttribute="bottom" constant="8" symbolic="YES" id="MSQ-l5-t2m"/>
+                            <constraint firstItem="k86-n4-56K" firstAttribute="leading" secondItem="wX5-JR-sF3" secondAttribute="leading" constant="20" id="ReB-Bs-AMK"/>
+                            <constraint firstItem="wX5-JR-sF3" firstAttribute="trailing" secondItem="k86-n4-56K" secondAttribute="trailing" constant="20" id="Vfo-OB-8Kb"/>
+                            <constraint firstItem="k86-n4-56K" firstAttribute="bottom" secondItem="wX5-JR-sF3" secondAttribute="bottom" id="d3h-cf-SlB"/>
+                            <constraint firstItem="7CC-We-GSn" firstAttribute="top" secondItem="wX5-JR-sF3" secondAttribute="top" id="zJo-mU-0xj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cl7-9a-utH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JxA-1N-8Fs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2100" y="-219.00647948164149"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

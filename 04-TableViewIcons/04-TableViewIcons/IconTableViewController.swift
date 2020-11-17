@@ -8,12 +8,11 @@
 import UIKit
 
 class IconTableViewController: UIViewController {
-    let icons:[String] = ["sparkles","message","gift","headphones","atom"]
-    
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var txtNote: UITextField!
     @IBOutlet weak var tableIconNotes: UITableView!
     
+    let icons:[String] = ["sparkles","message","gift","headphones","atom", "square.and.pencil"]
     var currentIcon: String = "sparkles"
     var iconNotes: [IconNote] = [IconNote(IconString: "gift", NoteText: "Hello world")]
     
