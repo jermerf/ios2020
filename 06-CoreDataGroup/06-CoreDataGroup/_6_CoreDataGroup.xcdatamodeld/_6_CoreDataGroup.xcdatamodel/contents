@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="IconNote" representedClassName="IconNote" syncable="YES" codeGenerationType="class">
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NoteGroup" inverseName="notes" inverseEntity="NoteGroup"/>
+    </entity>
+    <entity name="NoteGroup" representedClassName="NoteGroup" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="notes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="IconNote" inverseName="group" inverseEntity="IconNote"/>
+    </entity>
+    <elements>
+        <element name="IconNote" positionX="-79.1484375" positionY="-42.20703125" width="128" height="88"/>
+        <element name="NoteGroup" positionX="-376.46875" positionY="-21.51171875" width="128" height="73"/>
+    </elements>
+</model>
