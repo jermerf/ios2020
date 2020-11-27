@@ -1,0 +1,16 @@
+PODS:
+  - FlexColorPicker (1.4.2)
+
+DEPENDENCIES:
+  - FlexColorPicker
+
+SPEC REPOS:
+  trunk:
+    - FlexColorPicker
+
+SPEC CHECKSUMS:
+  FlexColorPicker: d7ed5cfd8ceb936f2930e4e30629f9448967a5f8
+
+PODFILE CHECKSUM: c380c485e15e3429c43d7d9df897fdfd479f15a7
+
+COCOAPODS: 1.10.0

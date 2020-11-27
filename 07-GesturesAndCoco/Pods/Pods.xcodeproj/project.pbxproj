@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D58FF9FA31A2BF5E2CA4BB310176C6 /* UIViewWithCommonInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33971AC9EC808E5DD71A93DBF595A488 /* UIViewWithCommonInit.swift */; };
+		097306C5A7915D0D9116D05AEB10128A /* LimitedGestureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0392B8C76EBDCE88CA0CB2B1ABD2A372 /* LimitedGestureViewDelegate.swift */; };
+		0DD0D7D8481A0B35706581ADFC0D3D05 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E682E5FAD766B7D0A16A5E318D50639 /* CGRectExtension.swift */; };
+		1B7D004B25F336B051546D5776182ACF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D541EA325A1BF0F5A5082952E8ECC7B /* GradientView.swift */; };
+		1E6ED1C42B8230398ED65978B2C73FBF /* ComponentSliderControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E218C08AC70B38D245541F7388C768 /* ComponentSliderControls.swift */; };
+		1F34954503AA438EDCE56B6C0C4B1572 /* ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AB0F8F6BE4DD569413C2EAFF8A73C6 /* ColorPickerDelegate.swift */; };
+		211105F6306294D2543942BD8430147D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2217B09085C42A04A7FA22699722ABCB /* CustomColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD26FAFDF4E2E99D38B721EACD7059E /* CustomColorPickerViewController.swift */; };
+		2316C8133C5CBF113A7BDCCD28DE3346 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1936541C48035172E7D4303B992E43E7 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5F922CF0E1BF8E421012B4D231CAE0 /* CircleShapedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E686E3F1343EC387E011637125EFA7 /* CircleShapedView.swift */; };
+		30C5772E2D03BFED463674797AA3A5C9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09217A37675A61700E722893ED21F411 /* UIViewExtension.swift */; };
+		43E3F86FE0D24056B34321EBC1870A1C /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B2620975416F06E0E6E45F9298CF6 /* ColorPickerController.swift */; };
+		47519935F40D16FAB5DD2B23F9D604EA /* Pods-07-GesturesAndCoco-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5C9B5A08F166CDBA9738E98C1EABE5 /* Pods-07-GesturesAndCoco-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508E7AEAFDE3A6922BA425DF6155F804 /* DefaultColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DCB2D8F07651DCD4855ABC9B4AC253 /* DefaultColorPickerViewController.swift */; };
+		58EA924EC9CDC460E0AB11C907338536 /* AbstractColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4DE054034699F58E969D245269F8FC /* AbstractColorControl.swift */; };
+		59A0D77601C8C501D867F815BA5F4AB2 /* PaletteControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FF814CBCB854172AA211617292A8 /* PaletteControls.swift */; };
+		5CA50929E58AD073A6FAA31F855BBE01 /* PaletteAwareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905626D1289574EDEAB04C1BB050F4EC /* PaletteAwareScrollView.swift */; };
+		5E83B52B6858AD634301C55332DC7FC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		628E4E41AF4803E356AC335074A199B2 /* FlexColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 446D41A3850F02F8FD49BFA3770235BE /* FlexColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E52770944DE67E700217FEB8553005 /* ComponentSliderDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1F8B2075C762EA53C576EF3BD339FA /* ComponentSliderDelegates.swift */; };
+		65BECDB7E7C7DC8E0BF92BB909BF0FEE /* ColorControlContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E32652FF75B4D605E12F2CA5255B51F /* ColorControlContentView.swift */; };
+		6970FE083E3EB0101F07AABD048FCA86 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060967FD8D566489E7843744522FD98C /* UIColorExtension.swift */; };
+		6BD08F9E1C9B2AEAB15B3CD8FB3AE2F9 /* RadialHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6D091DD175D3B11DF81572BCED1E7 /* RadialHSBPaletteDelegate.swift */; };
+		6FF09F8DD8ABC054228046AD4BF674E3 /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E791AEBEC2C621361F738B377E6314 /* ColorPaletteControl.swift */; };
+		717A554226F99383F1EDB062B925A74E /* ColorPreviewWithHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197BA690DDB73898A7BF778FCB16252B /* ColorPreviewWithHex.swift */; };
+		73C4BB11D9B72EB10CB956440BE94D07 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F8A4086E5EE493CAD7C614B09FE9F /* CGPointExtension.swift */; };
+		7499E7B05BD97AD9491B07C5F5B2E682 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B8CD99C3781CAAAEAC354DD9D66F964 /* ColorPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C7D33E820F307BE0520155E57B72D5 /* ColorPaletteDelegate.swift */; };
+		7DD551ECA2968E92E5FA9196DFDD5F99 /* ControlWithThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F392289CE31838E7F55A0D57643FDC3 /* ControlWithThumbView.swift */; };
+		7FA21D55CA7C5E6DE7A457BDF31DB293 /* ColorSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066F2A8E9D7FF84CB7C8D2E34CEC7D6 /* ColorSliderControl.swift */; };
+		861949984C00494C14FCEE7985019BF3 /* Pods-07-GesturesAndCocoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCD44924C77F0DBE17787E3D0130C00 /* Pods-07-GesturesAndCocoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF51A6A1E8BC2DC9B48C71AC8CB17B1 /* Pods-07-GesturesAndCoco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A52DB9A175DE30FC129ABF33C9FA1 /* Pods-07-GesturesAndCoco-dummy.m */; };
+		8D9F47DF1C6645642A6E161F88C5705F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9EA53ED1604965B404EE9535A3863D2B /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A365F9848E0896ECE51AAA26ED15646 /* HSBColor.swift */; };
+		AA51A30B41AAF17ED91D5575A34C588F /* AdjustedHitBoxColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541149A7B429846706475C5D3AF24A04 /* AdjustedHitBoxColorControl.swift */; };
+		B5C5DB9F988BBA447BB8A33CEF3124BC /* ColorPickerControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC50C519E4FC4FCDCA9692A9D91DBC5 /* ColorPickerControllerProtocol.swift */; };
+		C823F5ED4938DBEDE5BB0B09D21704B6 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCD6F608B860A0293D4E7687576890 /* UIImageViewExtension.swift */; };
+		CC6A3A74D473B97C19668E230E72AD0F /* ColorPickerThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2CA1434D09EF0EBAB5CAAAA33FC70 /* ColorPickerThumbView.swift */; };
+		D18AEAE4126D2019B955142CB86C05D1 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 508F75E31D2374AAD5AA5EF70BC57415 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m */; };
+		D42CC5AECED9C607B4BA5C0D0E6EDF4C /* ColorSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4404D6831BD0704EF491FFF3D119A039 /* ColorSliderDelegate.swift */; };
+		DF9B2C6CBA2A730C11A2479EBD92043F /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01919D1F4FEC4056B97EB641627A6EE7 /* ColorControl.swift */; };
+		E0D7E89FD3B59D435EFC5C84A1B4957D /* RectangularHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D8EC4BD82C2D7EF5019D73579DC37 /* RectangularHSBPaletteDelegate.swift */; };
+		EAB465A1207D66DBA14B90762229AC21 /* FlexColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3ECDB8FF9866627EB14FC0A62D6CA5 /* FlexColorPicker-dummy.m */; };
+		EB4C4BDCCF5075683A4FBAF3BAC04491 /* Pods-07-GesturesAndCocoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F369DE780B8E837DFB05D65E47DF38 /* Pods-07-GesturesAndCocoTests-dummy.m */; };
+		F503EEB37C9EB913A5729F272F0BEB57 /* FlexColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88887606AB4FB99340B02D4A37C4CBE4 /* FlexColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D541970E1ACF2029A04CF95B3C85B1 /* LimitedGestureCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87905A8C908ED7B2CD14163408F9D242 /* LimitedGestureCircleView.swift */; };
+		F7C0FFF4ED4B8369F8479CEB3436C940 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB14D9DA7ED14F59A093E365199B8D /* UIImageExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EC6FDF2A59DFA1EF7D8856D22CFFA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9A6DFBF33C0809BD9B32C8C8B776E8;
+			remoteInfo = FlexColorPicker;
+		};
+		48AFBE1992E176C9571FCFA9154BBD38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9A6DFBF33C0809BD9B32C8C8B776E8;
+			remoteInfo = FlexColorPicker;
+		};
+		EF2074869AF68F66709435A7FAA16BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC765F8D85E733B006A43C06F7A75BE9;
+			remoteInfo = "Pods-07-GesturesAndCoco";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01919D1F4FEC4056B97EB641627A6EE7 /* ColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControl.swift; path = FlexColorPicker/Classes/Controls/ColorControl.swift; sourceTree = "<group>"; };
+		0392B8C76EBDCE88CA0CB2B1ABD2A372 /* LimitedGestureViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureViewDelegate.swift; path = FlexColorPicker/Classes/Utilities/LimitedGestureViewDelegate.swift; sourceTree = "<group>"; };
+		0576AB8DDC4104D0732F5550FBA01E52 /* Pods-07-GesturesAndCoco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCoco.debug.xcconfig"; sourceTree = "<group>"; };
+		058C1A52F30FC872C935D4F9BF28BD0A /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		060967FD8D566489E7843744522FD98C /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = FlexColorPicker/Classes/Utilities/UIColorExtension.swift; sourceTree = "<group>"; };
+		09217A37675A61700E722893ED21F411 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIViewExtension.swift; sourceTree = "<group>"; };
+		10A86E89435FB2158210510236B9495A /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-Info.plist"; sourceTree = "<group>"; };
+		10E6D091DD175D3B11DF81572BCED1E7 /* RadialHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RadialHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		11E218C08AC70B38D245541F7388C768 /* ComponentSliderControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderControls.swift; path = FlexColorPicker/Classes/Controls/ComponentSliderControls.swift; sourceTree = "<group>"; };
+		1686397A1FE00D9AC9EE62EBE6355B36 /* Pods-07-GesturesAndCoco.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-07-GesturesAndCoco.modulemap"; sourceTree = "<group>"; };
+		1936541C48035172E7D4303B992E43E7 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h"; sourceTree = "<group>"; };
+		197BA690DDB73898A7BF778FCB16252B /* ColorPreviewWithHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPreviewWithHex.swift; path = FlexColorPicker/Classes/Controls/ColorPreviewWithHex.swift; sourceTree = "<group>"; };
+		19C7D33E820F307BE0520155E57B72D5 /* ColorPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorPaletteDelegate.swift; sourceTree = "<group>"; };
+		1A365F9848E0896ECE51AAA26ED15646 /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = FlexColorPicker/Classes/HSBColor.swift; sourceTree = "<group>"; };
+		1E1F8B2075C762EA53C576EF3BD339FA /* ComponentSliderDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderDelegates.swift; path = FlexColorPicker/Classes/ControlDelegates/ComponentSliderDelegates.swift; sourceTree = "<group>"; };
+		1F1100B6E67263F1E4BAC65403DB7DB4 /* Pods_07_GesturesAndCoco_07_GesturesAndCocoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_07_GesturesAndCoco_07_GesturesAndCocoUITests.framework; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B4BDC0AA5F87C07D3486BD058446E3 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23C28D0983DBD29C706F00481A522E44 /* FlexColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		2BB2CA1434D09EF0EBAB5CAAAA33FC70 /* ColorPickerThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerThumbView.swift; path = FlexColorPicker/Classes/Views/ColorPickerThumbView.swift; sourceTree = "<group>"; };
+		33971AC9EC808E5DD71A93DBF595A488 /* UIViewWithCommonInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewWithCommonInit.swift; path = FlexColorPicker/Classes/Views/UIViewWithCommonInit.swift; sourceTree = "<group>"; };
+		36AD4B49F0447719646E52C724F82A85 /* FlexColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		4404D6831BD0704EF491FFF3D119A039 /* ColorSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorSliderDelegate.swift; sourceTree = "<group>"; };
+		446D41A3850F02F8FD49BFA3770235BE /* FlexColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexColorPicker.h; path = FlexColorPicker/Classes/FlexColorPicker.h; sourceTree = "<group>"; };
+		453B2620975416F06E0E6E45F9298CF6 /* ColorPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerController.swift; path = FlexColorPicker/Classes/ColorPickerController.swift; sourceTree = "<group>"; };
+		49DCB2D8F07651DCD4855ABC9B4AC253 /* DefaultColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultColorPickerViewController.swift; path = FlexColorPicker/Classes/DefaultColorPickerViewController.swift; sourceTree = "<group>"; };
+		4EC50C519E4FC4FCDCA9692A9D91DBC5 /* ColorPickerControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerControllerProtocol.swift; path = FlexColorPicker/Classes/ColorPickerControllerProtocol.swift; sourceTree = "<group>"; };
+		508F75E31D2374AAD5AA5EF70BC57415 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m"; sourceTree = "<group>"; };
+		541149A7B429846706475C5D3AF24A04 /* AdjustedHitBoxColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustedHitBoxColorControl.swift; path = FlexColorPicker/Classes/Controls/AdjustedHitBoxColorControl.swift; sourceTree = "<group>"; };
+		5624F07EC994F2C2A062082C0BFE409F /* FlexColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		5D541EA325A1BF0F5A5082952E8ECC7B /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = FlexColorPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
+		5F392289CE31838E7F55A0D57643FDC3 /* ControlWithThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlWithThumbView.swift; path = FlexColorPicker/Classes/Controls/ControlWithThumbView.swift; sourceTree = "<group>"; };
+		5FCD44924C77F0DBE17787E3D0130C00 /* Pods-07-GesturesAndCocoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-07-GesturesAndCocoTests-umbrella.h"; sourceTree = "<group>"; };
+		6B6D8EC4BD82C2D7EF5019D73579DC37 /* RectangularHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangularHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RectangularHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		6D0872B1DCAAC415C700EABCF26C0410 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.modulemap"; sourceTree = "<group>"; };
+		6E32652FF75B4D605E12F2CA5255B51F /* ColorControlContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControlContentView.swift; path = FlexColorPicker/Classes/Views/ColorControlContentView.swift; sourceTree = "<group>"; };
+		6E682E5FAD766B7D0A16A5E318D50639 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = FlexColorPicker/Classes/Utilities/CGRectExtension.swift; sourceTree = "<group>"; };
+		72FF66AC11AD77F09774657CED5D68C8 /* Pods-07-GesturesAndCoco-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCoco-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexColorPicker.framework; path = FlexColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7929BEE294453E76A1C49942AE9BB9E0 /* Pods-07-GesturesAndCocoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-07-GesturesAndCocoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C70B9FE7B6D08076D3461234AE28408 /* Pods-07-GesturesAndCoco-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-07-GesturesAndCoco-frameworks.sh"; sourceTree = "<group>"; };
+		86CCD6F608B860A0293D4E7687576890 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		87905A8C908ED7B2CD14163408F9D242 /* LimitedGestureCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureCircleView.swift; path = FlexColorPicker/Classes/Views/LimitedGestureCircleView.swift; sourceTree = "<group>"; };
+		88887606AB4FB99340B02D4A37C4CBE4 /* FlexColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		8B3ECDB8FF9866627EB14FC0A62D6CA5 /* FlexColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexColorPicker-dummy.m"; sourceTree = "<group>"; };
+		905626D1289574EDEAB04C1BB050F4EC /* PaletteAwareScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteAwareScrollView.swift; path = FlexColorPicker/Classes/Views/PaletteAwareScrollView.swift; sourceTree = "<group>"; };
+		99AB0F8F6BE4DD569413C2EAFF8A73C6 /* ColorPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerDelegate.swift; path = FlexColorPicker/Classes/ColorPickerDelegate.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0019807C9C4A91A94790BD2A778DEBE /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0E446492A22B474E20B455DB6E92549 /* FlexColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexColorPicker-Info.plist"; sourceTree = "<group>"; };
+		A262D4AD6163B2789F83AB6C0BB2B172 /* Pods_07_GesturesAndCoco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_07_GesturesAndCoco.framework; path = "Pods-07-GesturesAndCoco.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F369DE780B8E837DFB05D65E47DF38 /* Pods-07-GesturesAndCocoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-07-GesturesAndCocoTests-dummy.m"; sourceTree = "<group>"; };
+		A8C191F772B3DF8DA91E08FCCF780AED /* Pods-07-GesturesAndCoco-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-07-GesturesAndCoco-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB3F8A4086E5EE493CAD7C614B09FE9F /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = FlexColorPicker/Classes/Utilities/CGPointExtension.swift; sourceTree = "<group>"; };
+		B34A29CCE071ED6DF54404B11EB103CC /* Pods-07-GesturesAndCocoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCocoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8902575EAE34164C6AC582A15FB91E5 /* Pods-07-GesturesAndCocoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCocoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD26FAFDF4E2E99D38B721EACD7059E /* CustomColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomColorPickerViewController.swift; path = FlexColorPicker/Classes/CustomColorPickerViewController.swift; sourceTree = "<group>"; };
+		BC4DE054034699F58E969D245269F8FC /* AbstractColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractColorControl.swift; path = FlexColorPicker/Classes/Controls/AbstractColorControl.swift; sourceTree = "<group>"; };
+		BFCB14D9DA7ED14F59A093E365199B8D /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageExtension.swift; sourceTree = "<group>"; };
+		C066F2A8E9D7FF84CB7C8D2E34CEC7D6 /* ColorSliderControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderControl.swift; path = FlexColorPicker/Classes/Controls/ColorSliderControl.swift; sourceTree = "<group>"; };
+		C43CE6570C2DB03DE0AE39C7BD7FCA3B /* Pods-07-GesturesAndCocoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-07-GesturesAndCocoTests.modulemap"; sourceTree = "<group>"; };
+		C804E30963D8014ACF486A2E449E435B /* Pods-07-GesturesAndCoco-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCoco-Info.plist"; sourceTree = "<group>"; };
+		C8E791AEBEC2C621361F738B377E6314 /* ColorPaletteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteControl.swift; path = FlexColorPicker/Classes/Controls/ColorPaletteControl.swift; sourceTree = "<group>"; };
+		CD0A52DB9A175DE30FC129ABF33C9FA1 /* Pods-07-GesturesAndCoco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-07-GesturesAndCoco-dummy.m"; sourceTree = "<group>"; };
+		D390C905FA2B7C869AD0987B26DEB020 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D69EE10E5274BBA35C781640B60864A0 /* Pods_07_GesturesAndCocoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_07_GesturesAndCocoTests.framework; path = "Pods-07-GesturesAndCocoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5FF814CBCB854172AA211617292A8 /* PaletteControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteControls.swift; path = FlexColorPicker/Classes/Controls/PaletteControls.swift; sourceTree = "<group>"; };
+		DE5C9B5A08F166CDBA9738E98C1EABE5 /* Pods-07-GesturesAndCoco-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-07-GesturesAndCoco-umbrella.h"; sourceTree = "<group>"; };
+		E07B2AC9FCEEACA2F30674630048EB03 /* Pods-07-GesturesAndCocoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCocoTests-Info.plist"; sourceTree = "<group>"; };
+		E19A6E0CE29D4A2503D543361D1C313E /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4C4D931714FC8E216AA74B8E77240A2 /* Pods-07-GesturesAndCoco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCoco.release.xcconfig"; sourceTree = "<group>"; };
+		E8B7EEAEEC3ACBEF63E198022236DB87 /* Pods-07-GesturesAndCocoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-07-GesturesAndCocoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9E686E3F1343EC387E011637125EFA7 /* CircleShapedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapedView.swift; path = FlexColorPicker/Classes/Views/CircleShapedView.swift; sourceTree = "<group>"; };
+		FE2C0D2AB872161F38F1F32C51D8CBD1 /* FlexColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexColorPicker.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23414C089774AEF6950214739110CF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E83B52B6858AD634301C55332DC7FC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687306F56E887C496BC0B5AC4FC0F5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211105F6306294D2543942BD8430147D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3F772F21277F7364694E38FB71C606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7499E7B05BD97AD9491B07C5F5B2E682 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A22721407B3CE9AA3D9C8CF56994E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9F47DF1C6645642A6E161F88C5705F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D657DB4BC9649FE9CF8638B89000BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */,
+				A262D4AD6163B2789F83AB6C0BB2B172 /* Pods_07_GesturesAndCoco.framework */,
+				1F1100B6E67263F1E4BAC65403DB7DB4 /* Pods_07_GesturesAndCoco_07_GesturesAndCocoUITests.framework */,
+				D69EE10E5274BBA35C781640B60864A0 /* Pods_07_GesturesAndCocoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B53E8FA1A7B29BB25E2D020CEBF4E47 /* Pods-07-GesturesAndCocoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43CE6570C2DB03DE0AE39C7BD7FCA3B /* Pods-07-GesturesAndCocoTests.modulemap */,
+				7929BEE294453E76A1C49942AE9BB9E0 /* Pods-07-GesturesAndCocoTests-acknowledgements.markdown */,
+				B34A29CCE071ED6DF54404B11EB103CC /* Pods-07-GesturesAndCocoTests-acknowledgements.plist */,
+				A4F369DE780B8E837DFB05D65E47DF38 /* Pods-07-GesturesAndCocoTests-dummy.m */,
+				E07B2AC9FCEEACA2F30674630048EB03 /* Pods-07-GesturesAndCocoTests-Info.plist */,
+				5FCD44924C77F0DBE17787E3D0130C00 /* Pods-07-GesturesAndCocoTests-umbrella.h */,
+				B8902575EAE34164C6AC582A15FB91E5 /* Pods-07-GesturesAndCocoTests.debug.xcconfig */,
+				E8B7EEAEEC3ACBEF63E198022236DB87 /* Pods-07-GesturesAndCocoTests.release.xcconfig */,
+			);
+			name = "Pods-07-GesturesAndCocoTests";
+			path = "Target Support Files/Pods-07-GesturesAndCocoTests";
+			sourceTree = "<group>";
+		};
+		487CEA89DA91EC790F8740D8F260B3F7 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0872B1DCAAC415C700EABCF26C0410 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.modulemap */,
+				058C1A52F30FC872C935D4F9BF28BD0A /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.markdown */,
+				E19A6E0CE29D4A2503D543361D1C313E /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-acknowledgements.plist */,
+				508F75E31D2374AAD5AA5EF70BC57415 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m */,
+				D390C905FA2B7C869AD0987B26DEB020 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-frameworks.sh */,
+				10A86E89435FB2158210510236B9495A /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-Info.plist */,
+				1936541C48035172E7D4303B992E43E7 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h */,
+				22B4BDC0AA5F87C07D3486BD058446E3 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.debug.xcconfig */,
+				A0019807C9C4A91A94790BD2A778DEBE /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.release.xcconfig */,
+			);
+			name = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests";
+			path = "Target Support Files/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7723B27E5CCC0DCD1BBC08CA50667A81 /* Pods-07-GesturesAndCoco */ = {
+			isa = PBXGroup;
+			children = (
+				1686397A1FE00D9AC9EE62EBE6355B36 /* Pods-07-GesturesAndCoco.modulemap */,
+				A8C191F772B3DF8DA91E08FCCF780AED /* Pods-07-GesturesAndCoco-acknowledgements.markdown */,
+				72FF66AC11AD77F09774657CED5D68C8 /* Pods-07-GesturesAndCoco-acknowledgements.plist */,
+				CD0A52DB9A175DE30FC129ABF33C9FA1 /* Pods-07-GesturesAndCoco-dummy.m */,
+				7C70B9FE7B6D08076D3461234AE28408 /* Pods-07-GesturesAndCoco-frameworks.sh */,
+				C804E30963D8014ACF486A2E449E435B /* Pods-07-GesturesAndCoco-Info.plist */,
+				DE5C9B5A08F166CDBA9738E98C1EABE5 /* Pods-07-GesturesAndCoco-umbrella.h */,
+				0576AB8DDC4104D0732F5550FBA01E52 /* Pods-07-GesturesAndCoco.debug.xcconfig */,
+				E4C4D931714FC8E216AA74B8E77240A2 /* Pods-07-GesturesAndCoco.release.xcconfig */,
+			);
+			name = "Pods-07-GesturesAndCoco";
+			path = "Target Support Files/Pods-07-GesturesAndCoco";
+			sourceTree = "<group>";
+		};
+		8996A0490BDC4DDFF69FA1DD09A2E4FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D90E245B8A57C01EC310498869B70D92 /* FlexColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94C67B4123591B3A499DA37AF7BB9564 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7723B27E5CCC0DCD1BBC08CA50667A81 /* Pods-07-GesturesAndCoco */,
+				487CEA89DA91EC790F8740D8F260B3F7 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests */,
+				2B53E8FA1A7B29BB25E2D020CEBF4E47 /* Pods-07-GesturesAndCocoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B94CF6F62DF33D731A70CDF9FC8291A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2C0D2AB872161F38F1F32C51D8CBD1 /* FlexColorPicker.modulemap */,
+				8B3ECDB8FF9866627EB14FC0A62D6CA5 /* FlexColorPicker-dummy.m */,
+				A0E446492A22B474E20B455DB6E92549 /* FlexColorPicker-Info.plist */,
+				23C28D0983DBD29C706F00481A522E44 /* FlexColorPicker-prefix.pch */,
+				88887606AB4FB99340B02D4A37C4CBE4 /* FlexColorPicker-umbrella.h */,
+				5624F07EC994F2C2A062082C0BFE409F /* FlexColorPicker.debug.xcconfig */,
+				36AD4B49F0447719646E52C724F82A85 /* FlexColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexColorPicker";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8996A0490BDC4DDFF69FA1DD09A2E4FB /* Pods */,
+				26D657DB4BC9649FE9CF8638B89000BE /* Products */,
+				94C67B4123591B3A499DA37AF7BB9564 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90E245B8A57C01EC310498869B70D92 /* FlexColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BC4DE054034699F58E969D245269F8FC /* AbstractColorControl.swift */,
+				541149A7B429846706475C5D3AF24A04 /* AdjustedHitBoxColorControl.swift */,
+				AB3F8A4086E5EE493CAD7C614B09FE9F /* CGPointExtension.swift */,
+				6E682E5FAD766B7D0A16A5E318D50639 /* CGRectExtension.swift */,
+				F9E686E3F1343EC387E011637125EFA7 /* CircleShapedView.swift */,
+				01919D1F4FEC4056B97EB641627A6EE7 /* ColorControl.swift */,
+				6E32652FF75B4D605E12F2CA5255B51F /* ColorControlContentView.swift */,
+				C8E791AEBEC2C621361F738B377E6314 /* ColorPaletteControl.swift */,
+				19C7D33E820F307BE0520155E57B72D5 /* ColorPaletteDelegate.swift */,
+				453B2620975416F06E0E6E45F9298CF6 /* ColorPickerController.swift */,
+				4EC50C519E4FC4FCDCA9692A9D91DBC5 /* ColorPickerControllerProtocol.swift */,
+				99AB0F8F6BE4DD569413C2EAFF8A73C6 /* ColorPickerDelegate.swift */,
+				2BB2CA1434D09EF0EBAB5CAAAA33FC70 /* ColorPickerThumbView.swift */,
+				197BA690DDB73898A7BF778FCB16252B /* ColorPreviewWithHex.swift */,
+				C066F2A8E9D7FF84CB7C8D2E34CEC7D6 /* ColorSliderControl.swift */,
+				4404D6831BD0704EF491FFF3D119A039 /* ColorSliderDelegate.swift */,
+				11E218C08AC70B38D245541F7388C768 /* ComponentSliderControls.swift */,
+				1E1F8B2075C762EA53C576EF3BD339FA /* ComponentSliderDelegates.swift */,
+				5F392289CE31838E7F55A0D57643FDC3 /* ControlWithThumbView.swift */,
+				BAD26FAFDF4E2E99D38B721EACD7059E /* CustomColorPickerViewController.swift */,
+				49DCB2D8F07651DCD4855ABC9B4AC253 /* DefaultColorPickerViewController.swift */,
+				446D41A3850F02F8FD49BFA3770235BE /* FlexColorPicker.h */,
+				5D541EA325A1BF0F5A5082952E8ECC7B /* GradientView.swift */,
+				1A365F9848E0896ECE51AAA26ED15646 /* HSBColor.swift */,
+				87905A8C908ED7B2CD14163408F9D242 /* LimitedGestureCircleView.swift */,
+				0392B8C76EBDCE88CA0CB2B1ABD2A372 /* LimitedGestureViewDelegate.swift */,
+				905626D1289574EDEAB04C1BB050F4EC /* PaletteAwareScrollView.swift */,
+				DCB5FF814CBCB854172AA211617292A8 /* PaletteControls.swift */,
+				10E6D091DD175D3B11DF81572BCED1E7 /* RadialHSBPaletteDelegate.swift */,
+				6B6D8EC4BD82C2D7EF5019D73579DC37 /* RectangularHSBPaletteDelegate.swift */,
+				060967FD8D566489E7843744522FD98C /* UIColorExtension.swift */,
+				BFCB14D9DA7ED14F59A093E365199B8D /* UIImageExtension.swift */,
+				86CCD6F608B860A0293D4E7687576890 /* UIImageViewExtension.swift */,
+				09217A37675A61700E722893ED21F411 /* UIViewExtension.swift */,
+				33971AC9EC808E5DD71A93DBF595A488 /* UIViewWithCommonInit.swift */,
+				B94CF6F62DF33D731A70CDF9FC8291A0 /* Support Files */,
+			);
+			name = FlexColorPicker;
+			path = FlexColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56B379BA818DA4E8D1F5D09093D0E8D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F503EEB37C9EB913A5729F272F0BEB57 /* FlexColorPicker-umbrella.h in Headers */,
+				628E4E41AF4803E356AC335074A199B2 /* FlexColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F652A462F2C4D751440EEAAB1E3254E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2316C8133C5CBF113A7BDCCD28DE3346 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB14D131C41EE28B70B6AA0ABE42111C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47519935F40D16FAB5DD2B23F9D604EA /* Pods-07-GesturesAndCoco-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12A9E763CFE0A1ED449BD2E0EC6CB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861949984C00494C14FCEE7985019BF3 /* Pods-07-GesturesAndCocoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FC3EB325545BDB2550CB7301A85D762 /* Pods-07-GesturesAndCocoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068AF8680D188165945439739A85D35C /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCocoTests" */;
+			buildPhases = (
+				DD12A9E763CFE0A1ED449BD2E0EC6CB6 /* Headers */,
+				B83973752F366EF5DEFE1D4FA2AC5B78 /* Sources */,
+				23414C089774AEF6950214739110CF66 /* Frameworks */,
+				323FBAD054DF73E7B99F19C1B889A0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8F449AE1B4D329A02DE13FDDB4B997 /* PBXTargetDependency */,
+			);
+			name = "Pods-07-GesturesAndCocoTests";
+			productName = "Pods-07-GesturesAndCocoTests";
+			productReference = D69EE10E5274BBA35C781640B60864A0 /* Pods_07_GesturesAndCocoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F221B4CC3F865593243380543E32F0 /* Build configuration list for PBXNativeTarget "FlexColorPicker" */;
+			buildPhases = (
+				56B379BA818DA4E8D1F5D09093D0E8D0 /* Headers */,
+				9914CFF469C6DC81E4ACD103F2DE2B43 /* Sources */,
+				687306F56E887C496BC0B5AC4FC0F5AE /* Frameworks */,
+				60510D7A1E8EB3E7DD2E2C5891B88C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexColorPicker;
+			productName = FlexColorPicker;
+			productReference = 741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8D759AE3A9341A8FFEB5CEF4C961005 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFE8F72CD49EEB467AB0773FF788BE8 /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests" */;
+			buildPhases = (
+				8F652A462F2C4D751440EEAAB1E3254E /* Headers */,
+				61735BCB782752914AB55CB16F4FA42A /* Sources */,
+				C0A22721407B3CE9AA3D9C8CF56994E0 /* Frameworks */,
+				6CE6E173AA1270B0CC0572C501CB4E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFD6B9111EDC4EE66D7DBC90C021877 /* PBXTargetDependency */,
+			);
+			name = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests";
+			productName = "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests";
+			productReference = 1F1100B6E67263F1E4BAC65403DB7DB4 /* Pods_07_GesturesAndCoco_07_GesturesAndCocoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC765F8D85E733B006A43C06F7A75BE9 /* Pods-07-GesturesAndCoco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2034B01D1D1382AED80607EC57A9CF37 /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCoco" */;
+			buildPhases = (
+				BB14D131C41EE28B70B6AA0ABE42111C /* Headers */,
+				99E1AA3F4A6F2440DAF43D562B639E57 /* Sources */,
+				BF3F772F21277F7364694E38FB71C606 /* Frameworks */,
+				39D83EFD305195455C557F846BDA69B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74FB8AA2736CC818FAEBE6B3A3F3455C /* PBXTargetDependency */,
+			);
+			name = "Pods-07-GesturesAndCoco";
+			productName = "Pods-07-GesturesAndCoco";
+			productReference = A262D4AD6163B2789F83AB6C0BB2B172 /* Pods_07_GesturesAndCoco.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 26D657DB4BC9649FE9CF8638B89000BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */,
+				DC765F8D85E733B006A43C06F7A75BE9 /* Pods-07-GesturesAndCoco */,
+				C8D759AE3A9341A8FFEB5CEF4C961005 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests */,
+				2FC3EB325545BDB2550CB7301A85D762 /* Pods-07-GesturesAndCocoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323FBAD054DF73E7B99F19C1B889A0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D83EFD305195455C557F846BDA69B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60510D7A1E8EB3E7DD2E2C5891B88C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE6E173AA1270B0CC0572C501CB4E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61735BCB782752914AB55CB16F4FA42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18AEAE4126D2019B955142CB86C05D1 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9914CFF469C6DC81E4ACD103F2DE2B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EA924EC9CDC460E0AB11C907338536 /* AbstractColorControl.swift in Sources */,
+				AA51A30B41AAF17ED91D5575A34C588F /* AdjustedHitBoxColorControl.swift in Sources */,
+				73C4BB11D9B72EB10CB956440BE94D07 /* CGPointExtension.swift in Sources */,
+				0DD0D7D8481A0B35706581ADFC0D3D05 /* CGRectExtension.swift in Sources */,
+				2E5F922CF0E1BF8E421012B4D231CAE0 /* CircleShapedView.swift in Sources */,
+				DF9B2C6CBA2A730C11A2479EBD92043F /* ColorControl.swift in Sources */,
+				65BECDB7E7C7DC8E0BF92BB909BF0FEE /* ColorControlContentView.swift in Sources */,
+				6FF09F8DD8ABC054228046AD4BF674E3 /* ColorPaletteControl.swift in Sources */,
+				7B8CD99C3781CAAAEAC354DD9D66F964 /* ColorPaletteDelegate.swift in Sources */,
+				43E3F86FE0D24056B34321EBC1870A1C /* ColorPickerController.swift in Sources */,
+				B5C5DB9F988BBA447BB8A33CEF3124BC /* ColorPickerControllerProtocol.swift in Sources */,
+				1F34954503AA438EDCE56B6C0C4B1572 /* ColorPickerDelegate.swift in Sources */,
+				CC6A3A74D473B97C19668E230E72AD0F /* ColorPickerThumbView.swift in Sources */,
+				717A554226F99383F1EDB062B925A74E /* ColorPreviewWithHex.swift in Sources */,
+				7FA21D55CA7C5E6DE7A457BDF31DB293 /* ColorSliderControl.swift in Sources */,
+				D42CC5AECED9C607B4BA5C0D0E6EDF4C /* ColorSliderDelegate.swift in Sources */,
+				1E6ED1C42B8230398ED65978B2C73FBF /* ComponentSliderControls.swift in Sources */,
+				62E52770944DE67E700217FEB8553005 /* ComponentSliderDelegates.swift in Sources */,
+				7DD551ECA2968E92E5FA9196DFDD5F99 /* ControlWithThumbView.swift in Sources */,
+				2217B09085C42A04A7FA22699722ABCB /* CustomColorPickerViewController.swift in Sources */,
+				508E7AEAFDE3A6922BA425DF6155F804 /* DefaultColorPickerViewController.swift in Sources */,
+				EAB465A1207D66DBA14B90762229AC21 /* FlexColorPicker-dummy.m in Sources */,
+				1B7D004B25F336B051546D5776182ACF /* GradientView.swift in Sources */,
+				9EA53ED1604965B404EE9535A3863D2B /* HSBColor.swift in Sources */,
+				F6D541970E1ACF2029A04CF95B3C85B1 /* LimitedGestureCircleView.swift in Sources */,
+				097306C5A7915D0D9116D05AEB10128A /* LimitedGestureViewDelegate.swift in Sources */,
+				5CA50929E58AD073A6FAA31F855BBE01 /* PaletteAwareScrollView.swift in Sources */,
+				59A0D77601C8C501D867F815BA5F4AB2 /* PaletteControls.swift in Sources */,
+				6BD08F9E1C9B2AEAB15B3CD8FB3AE2F9 /* RadialHSBPaletteDelegate.swift in Sources */,
+				E0D7E89FD3B59D435EFC5C84A1B4957D /* RectangularHSBPaletteDelegate.swift in Sources */,
+				6970FE083E3EB0101F07AABD048FCA86 /* UIColorExtension.swift in Sources */,
+				F7C0FFF4ED4B8369F8479CEB3436C940 /* UIImageExtension.swift in Sources */,
+				C823F5ED4938DBEDE5BB0B09D21704B6 /* UIImageViewExtension.swift in Sources */,
+				30C5772E2D03BFED463674797AA3A5C9 /* UIViewExtension.swift in Sources */,
+				07D58FF9FA31A2BF5E2CA4BB310176C6 /* UIViewWithCommonInit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E1AA3F4A6F2440DAF43D562B639E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF51A6A1E8BC2DC9B48C71AC8CB17B1 /* Pods-07-GesturesAndCoco-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83973752F366EF5DEFE1D4FA2AC5B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4C4BDCCF5075683A4FBAF3BAC04491 /* Pods-07-GesturesAndCocoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8F449AE1B4D329A02DE13FDDB4B997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-07-GesturesAndCoco";
+			target = DC765F8D85E733B006A43C06F7A75BE9 /* Pods-07-GesturesAndCoco */;
+			targetProxy = EF2074869AF68F66709435A7FAA16BEA /* PBXContainerItemProxy */;
+		};
+		2DFD6B9111EDC4EE66D7DBC90C021877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexColorPicker;
+			target = 9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */;
+			targetProxy = 48AFBE1992E176C9571FCFA9154BBD38 /* PBXContainerItemProxy */;
+		};
+		74FB8AA2736CC818FAEBE6B3A3F3455C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexColorPicker;
+			target = 9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */;
+			targetProxy = 1EC6FDF2A59DFA1EF7D8856D22CFFA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DA66F79E10510D33DAFB0C24DB0EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5624F07EC994F2C2A062082C0BFE409F /* FlexColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		695BCD363ED3D5283B0A91EC8B9B35AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B7EEAEEC3ACBEF63E198022236DB87 /* Pods-07-GesturesAndCocoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCocoTests/Pods-07-GesturesAndCocoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCocoTests/Pods-07-GesturesAndCocoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		711E45D2F8BB1FE92F47E6ECD781477B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0576AB8DDC4104D0732F5550FBA01E52 /* Pods-07-GesturesAndCoco.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCoco/Pods-07-GesturesAndCoco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCoco/Pods-07-GesturesAndCoco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75C01786BB9C2A70889C017589E66F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B4BDC0AA5F87C07D3486BD058446E3 /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AFA7F74765B36056604F611674078645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8902575EAE34164C6AC582A15FB91E5 /* Pods-07-GesturesAndCocoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCocoTests/Pods-07-GesturesAndCocoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCocoTests/Pods-07-GesturesAndCocoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D53E5F7E627010E54BCB3EFB9915B41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C4D931714FC8E216AA74B8E77240A2 /* Pods-07-GesturesAndCoco.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCoco/Pods-07-GesturesAndCoco-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCoco/Pods-07-GesturesAndCoco.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EECB36BA436B8806163BC93A840C88C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AD4B49F0447719646E52C724F82A85 /* FlexColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F721C9881D28E0497D1B6304D7E132FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0019807C9C4A91A94790BD2A778DEBE /* Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests/Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068AF8680D188165945439739A85D35C /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCocoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA7F74765B36056604F611674078645 /* Debug */,
+				695BCD363ED3D5283B0A91EC8B9B35AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2034B01D1D1382AED80607EC57A9CF37 /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711E45D2F8BB1FE92F47E6ECD781477B /* Debug */,
+				D53E5F7E627010E54BCB3EFB9915B41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFE8F72CD49EEB467AB0773FF788BE8 /* Build configuration list for PBXNativeTarget "Pods-07-GesturesAndCoco-07-GesturesAndCocoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C01786BB9C2A70889C017589E66F19 /* Debug */,
+				F721C9881D28E0497D1B6304D7E132FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F221B4CC3F865593243380543E32F0 /* Build configuration list for PBXNativeTarget "FlexColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA66F79E10510D33DAFB0C24DB0EC90 /* Debug */,
+				EECB36BA436B8806163BC93A840C88C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

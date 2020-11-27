@@ -1,0 +1,6 @@
+framework module Pods_07_GesturesAndCocoTests {
+  umbrella header "Pods-07-GesturesAndCocoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
